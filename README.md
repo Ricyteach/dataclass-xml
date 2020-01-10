@@ -1,7 +1,7 @@
 # dataclass-xml
 A simple library for combining dataclasses and xml functionality
 
-Allows creation of XML-based classses containing data fluently:
+Allows creation of XML-based classes containing data fluently:
 
 ```python
 from dataclasses import dataclass
