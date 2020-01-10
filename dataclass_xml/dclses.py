@@ -29,6 +29,7 @@ class DataclassElement(xml.Element):
     element_tag: ClassVar[str]
 
     def __init_subclass__(cls, tag: str = None, **kwargs) -> None:
+        super().__init_subclass__(**kwargs)
         if tag is not None:
             cls.element_tag = tag
 
